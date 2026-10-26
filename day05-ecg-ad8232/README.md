@@ -1,6 +1,9 @@
 # ECG with Arduino Uno and AD8232
 
 Aim: build an electrocardiogram (ECG) using an Arduino Uno and the AD8232 ECG heart rate monitor sensor.
+<p align="center">
+  <img src="ECG.png" alt="ECG" width="500">
+</p>
 
 
 ## The ECG waveform
@@ -11,7 +14,10 @@ For each cardiac cycle, the ECG waveform shows four waves:
 - T	the ventricles relax (repolarisation of the ventricles)
 - U	not always visible; thought to come from the repolarisation of the Purkinje fibres or the end of ventricular relaxation
 
-![Schematic waveform drawn in Python for illustration](expectedECG_waveform.png)
+<p align="center">
+  <img src="expectedECG_waveform.png" alt="expectedECG_waveform.png" width="500">
+</p>
+
 
 
 ## Components
