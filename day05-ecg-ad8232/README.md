@@ -11,9 +11,8 @@ For each cardiac cycle, the ECG waveform shows four waves:
 - T	the ventricles relax (repolarisation of the ventricles)
 - U	not always visible; thought to come from the repolarisation of the Purkinje fibres or the end of ventricular relaxation
 
-![IMAGE description](image.png)
+![Schematic waveform drawn in Python for illustration](expectedECG_waveform.png)
 
-Schematic waveform drawn in Python for illustration; real amplitudes and timings vary between people and electrode placements.
 
 ## Components
 - Arduino Uno
