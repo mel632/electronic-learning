@@ -79,3 +79,10 @@ the two, remains. The board then amplifies this difference about 1000 times and 
 
 When LO+ or LO− is HIGH, the code sends 0 instead of the signal, so a bad
 electrode contact is never mistaken for a heartbeat.
+
+## Code
+
+| Sketch | Code | Purpose |
+| --- | --- | --- |
+| ![Plot1](ECGHUM.png) | [code1](ecg_code.ino) | checks the electrodes: plots LO+, LO− and the raw signal |
+| ![Plot2](ECG_signal.png) | [code2](ecg_average.ino) | averages 20 readings to reduce 50 Hz hum and show heartbeats |
