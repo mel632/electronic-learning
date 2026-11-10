@@ -2,7 +2,7 @@
 
 Aim: build an electrocardiogram (ECG) using an Arduino Uno and the AD8232 ECG heart rate monitor sensor.
 <p align="center">
-  <img src="ECG.png" alt="ECG" width="250">
+  <img src="Images/ECG.png" alt="ECG" width="250">
    <br>
   <em>Figure 1: Image of an AD8232</em>
 
@@ -17,7 +17,7 @@ For each cardiac cycle, the ECG waveform shows four waves:
 - U	not always visible; thought to come from the repolarisation of the Purkinje fibres or the end of ventricular relaxation
 
 <p align="center">
-  <img src="expectedECG_waveform.png" alt="expectedECG_waveform.png" width="500">
+  <img src="Images/expectedECG_waveform.png" alt="expectedECG_waveform.png" width="500">
    <br>
   <em>Figure 1: Expected ECG waveform for one cardiac cycle</em>
 
@@ -84,5 +84,5 @@ electrode contact is never mistaken for a heartbeat.
 
 | Sketch | Code | Purpose |
 | --- | --- | --- |
-| ![Plot1](ECGHUM.png) | [code1](ecg_code.ino) | checks the electrodes: plots LO+, LO− and the raw signal |
-| ![Plot2](ECG_signal.png) | [code2](ecg_average.ino) | averages 20 readings to reduce 50 Hz hum and show heartbeats |
+| ![Plot1](Images/ECGHUM.png) | [code1](ecg_code.ino) | checks the electrodes: plots LO+, LO− and the raw signal |
+| ![Plot2](Images/ECG_signal.png) | [code2](ecg_average.ino) | averages 20 readings to reduce 50 Hz hum and show heartbeats |
